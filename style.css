@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #12355b;
+    font-size: 28px;
+    margin-top: 0;
+    border-bottom: 3px solid #12355b;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #12355b;
+}
+
+.video-container {
+    margin-top: 25px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+}
+
+.descricao,
+.transcricao,
+.acessibilidade {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.transcricao {
+    background-color: #f7f7f7;
+}
+
+.transcricao p {
+    margin-bottom: 18px;
+}
+
+.transcricao strong {
+    color: #12355b;
+}
+
+.som {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.acessibilidade {
+    background-color: #e8f1f8;
+}
+
+footer {
+    text-align: center;
+    background-color: #12355b;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+    article {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+}
